@@ -1,6 +1,6 @@
 import { nanoid } from 'nanoid'
-import React, { createContext, useState } from 'react'
-import {useLocalStorage} from 'usehooks-ts'
+import React, { createContext } from 'react'
+import { useLocalStorage } from 'usehooks-ts'
 
 export interface Todo {
   id:string
